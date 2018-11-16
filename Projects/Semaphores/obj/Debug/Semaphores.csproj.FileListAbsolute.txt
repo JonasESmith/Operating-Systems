@@ -1,0 +1,10 @@
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\bin\Debug\Semaphores.exe.config
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\bin\Debug\Semaphores.exe
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\bin\Debug\Semaphores.pdb
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\obj\Debug\Semaphores.csprojResolveAssemblyReference.cache
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\obj\Debug\Semaphores.PhilProblem.resources
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\obj\Debug\Semaphores.Properties.Resources.resources
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\obj\Debug\Semaphores.csproj.GenerateResource.Cache
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\obj\Debug\Semaphores.csproj.CoreCompileInputs.cache
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\obj\Debug\Semaphores.exe
+C:\Users\smithj067\Desktop\Projects\Semaphores\Semaphores\obj\Debug\Semaphores.pdb
