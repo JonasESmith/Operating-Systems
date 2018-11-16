@@ -1,0 +1,49 @@
+# Tribe of savages Problem
+
+const M = ??; #an Integer
+
+Semaphore Cook      = 0,
+		  Mutex     = 1;
+		  
+Bool      StewReady = true;
+		  
+int       NumOfServings = 0;
+ 
+Main()
+{
+	Cook();
+	StartFeast(M); #init stew with Servings
+} 
+
+Savage()
+{
+	if(StewReady)
+	{
+		if(NumOfServings == 0) {
+			wait(Mutex);
+				StewReady = false;
+			signal(Mutex);
+			signal(Cook);
+		}
+		else
+		{
+			wait(Mutex);
+				NumOfServings--;
+			signal(Mutex);
+		}
+	}
+}
+
+Cook()
+{
+	while(true)
+	{
+		wait(Cook);
+		CookMissionaryStew(); #yummy
+		wait(Mutex);
+			NumOfServings = M;
+			StewReady = true;
+		signal(Mutex);
+		signal(Cook);
+	}
+}

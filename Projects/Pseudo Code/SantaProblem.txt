@@ -1,0 +1,62 @@
+# Santa Problem
+
+semaphore elves    = 0, reindeer  = 0, wakeSanta = 0, mutex = 1;
+
+int       numElves = 0, numReinDr = 0;
+
+SantaAlarm(){
+	while(true)
+	{
+		if(reindeer == 9)
+		{
+			wait(mutex);
+				wait(wakeSanta)
+				reindeer = 0;
+			signal(mutex);
+			if(numElves >= 3)
+				MakeElvesWait();
+			GetSleighReady();
+		}
+		elif(elves >= 3)
+		{
+			wait(mutex);
+				wait(wakeSanta);
+				numElves = numElves - 3;
+			signal(mutex);
+			FixElveProblem();
+		}
+	}
+}
+
+ElveNeedsHelp() {
+	if(numElves >= 3)
+	{
+		wait(mutex);
+			signal(wakeSanta);
+			numElves = numElves - 3;
+		signal(mutex);
+	}
+	else 
+	{
+		wait(mutex);
+			numElves++;
+		signal(mutex);
+	}
+}
+
+ReinDeerArrives(){
+	if(numReinDr == 8)
+	{
+		wait(mutex);
+			LastReindeerGetsSanta();
+			signal(wakeSanta);
+			numReinDr = 9;
+		signal(mutex);
+	}
+	else
+	{
+		wait(mutex);
+			numReinDr++;
+		signal(mutex);
+	}
+}

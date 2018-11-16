@@ -1,0 +1,103 @@
+#Pseudo Code for Baboon Problem
+
+Semaphore Mutex       = 1, 
+	      GoingRight  = 1,
+		  GoingLeft   = 1;
+		  
+bool 	  BinaryGoingRight = false;
+		  BinaryGoingLeft  = false;
+		  
+int 	  NumBaboon   = 0, 
+          QueuedLeft  = 0, 
+		  QueuedRight = 0;
+		  
+
+BaboonGoingLeft() {
+	if(NumBaboon < 5 && !BinaryGoingRight)
+	{
+		if(QueuedRight < 5)
+		{	
+			wait(Mutex);
+				if(NumBaboon == 0)
+				{
+					BinaryGoingLeft = true;
+					wait(GoingLeft);
+				}
+				
+				NumBaboon++;
+				
+				if(QueuedLeft > 0)
+					QueuedLeft--;
+			signal(Mutex);
+			
+			ClimbToLeft();
+			
+			wait(Mutex);
+				NumBaboon--;
+			signal(Mutex);
+			
+			if(NumBaboon == 0)
+			{
+				signal(GoingLeft);
+				BinaryGoingLeft = false;
+			}
+		}
+		else
+		{
+			goto ELSE : 
+		}
+	}
+	else
+	{
+		ELSE : 
+		if(QueuedLeft < 5)
+			wait(Mutex);
+				QueuedLeft++;
+			signal(Mutex);
+	}
+}
+
+BaboonGoingRight() {
+	if(NumBaboon < 5 && !BinaryGoingLeft)
+	{
+		if(QueuedLeft < 5)
+		{
+			wait(Mutex);
+				if(NumBaboon == 0)
+				{
+					BinaryGoingRight = true;
+					wait(GoingRight);
+				}
+				
+				NumBaboon++;
+				
+				if(QueuedRight > 0)
+					QueuedRight--;
+			signal(Mutex);
+			
+			ClimbToRight();
+			
+			wait(Mutex);
+				NumBaboon--;
+			signal(Mutex);
+			
+			if(NumBaboon == 0)
+			{
+				signal(GoingRight);
+				BinaryGoingRight = false;
+			}
+		}
+		else
+		{
+			goto ELSE : 
+		}
+	}
+	else
+	{
+		ELSE : 
+		if(QueuedRight < 5)
+			wait(Mutex);
+				QueuedRight++;
+			signal(Mutex);
+	}
+}
