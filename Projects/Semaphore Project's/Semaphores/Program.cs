@@ -16,7 +16,7 @@ namespace Semaphores
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PhilProblem());
+            Application.Run(new mutualExclusion());
         }
     }
 }

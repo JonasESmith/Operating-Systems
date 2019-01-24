@@ -1,0 +1,7 @@
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\UnisexBathroom\obj\Debug\UnisexBathroom.csprojAssemblyReference.cache
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\UnisexBathroom\obj\Debug\UnisexBathroom.csproj.CoreCompileInputs.cache
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\UnisexBathroom\bin\Debug\UnisexBathroom.exe.config
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\UnisexBathroom\bin\Debug\UnisexBathroom.exe
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\UnisexBathroom\bin\Debug\UnisexBathroom.pdb
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\UnisexBathroom\obj\Debug\UnisexBathroom.exe
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\UnisexBathroom\obj\Debug\UnisexBathroom.pdb

@@ -1,0 +1,14 @@
+C:\Users\smithj067\Desktop\Semaphores-master\Semaphores\Jurrasic Park prob\bin\Debug\Jurrasic Park prob.exe.config
+C:\Users\smithj067\Desktop\Semaphores-master\Semaphores\Jurrasic Park prob\bin\Debug\Jurrasic Park prob.exe
+C:\Users\smithj067\Desktop\Semaphores-master\Semaphores\Jurrasic Park prob\bin\Debug\Jurrasic Park prob.pdb
+C:\Users\smithj067\Desktop\Semaphores-master\Semaphores\Jurrasic Park prob\obj\Debug\Jurrasic Park prob.csproj.CoreCompileInputs.cache
+C:\Users\smithj067\Desktop\Semaphores-master\Semaphores\Jurrasic Park prob\obj\Debug\Jurrasic Park prob.exe
+C:\Users\smithj067\Desktop\Semaphores-master\Semaphores\Jurrasic Park prob\obj\Debug\Jurrasic Park prob.pdb
+C:\Users\smithj067\Desktop\Semaphores-master\Semaphores\Jurrasic Park prob\obj\Debug\Jurrasic Park prob.csprojResolveAssemblyReference.cache
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\Jurrasic Park prob\bin\Debug\Jurrasic Park prob.exe.config
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\Jurrasic Park prob\bin\Debug\Jurrasic Park prob.exe
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\Jurrasic Park prob\bin\Debug\Jurrasic Park prob.pdb
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\Jurrasic Park prob\obj\Debug\Jurrasic Park prob.csprojAssemblyReference.cache
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\Jurrasic Park prob\obj\Debug\Jurrasic Park prob.csproj.CoreCompileInputs.cache
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\Jurrasic Park prob\obj\Debug\Jurrasic Park prob.exe
+C:\Users\Kali\Desktop\Projects\Semaphores\Semaphores\Jurrasic Park prob\obj\Debug\Jurrasic Park prob.pdb

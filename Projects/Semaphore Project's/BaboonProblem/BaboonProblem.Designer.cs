@@ -1,6 +1,6 @@
 ﻿namespace Semaphores
 {
-    partial class PhilProblem
+    partial class BaboonProblem
     {
         /// <summary>
         /// Required designer variable.
@@ -36,19 +36,18 @@
             this.ConsoleLogger.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ConsoleLogger.Location = new System.Drawing.Point(0, 0);
             this.ConsoleLogger.Name = "ConsoleLogger";
-            this.ConsoleLogger.Size = new System.Drawing.Size(314, 484);
+            this.ConsoleLogger.Size = new System.Drawing.Size(389, 301);
             this.ConsoleLogger.TabIndex = 0;
             this.ConsoleLogger.Text = "";
             // 
-            // PhilProblem
+            // BaboonProblem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(314, 484);
+            this.ClientSize = new System.Drawing.Size(389, 301);
             this.Controls.Add(this.ConsoleLogger);
-            this.Name = "PhilProblem";
-            this.Text = "Problem";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PhilProblem_FormClosing);
+            this.Name = "BaboonProblem";
+            this.Text = "Baboon problem";
             this.ResumeLayout(false);
 
         }
