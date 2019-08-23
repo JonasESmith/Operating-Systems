@@ -3,4 +3,5 @@
 <p></p>
 Notes and sample projects I created to better understand MSSU's Operating Systems Course.
 
-Another useful <a href="https://notes.eddyerburgh.me/operating-systems/linux"> linke by Eddy Erburgh </a>
+* useful links 
+  * <a href="https://notes.eddyerburgh.me/operating-systems/linux"> link by Eddy Erburgh </a>
